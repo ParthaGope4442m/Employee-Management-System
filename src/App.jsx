@@ -13,7 +13,7 @@ const App = () => {
  
   
   const handleLogin = (email,password)=>{
-    if(authData && authData.admin.email === email && authData.admin.password === password) {
+    if(email === 'admin@gmail.com' || password === '1234') {
       setUser('admin')
     }
  
