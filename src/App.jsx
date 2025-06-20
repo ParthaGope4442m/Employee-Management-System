@@ -13,15 +13,16 @@ const App = () => {
  
   
   const handleLogin = (email,password)=>{
-     if(email == 'admin@me.com' && password=='123'){
+    if(authData && authData.admin.email === email && authData.admin.password === password) {
       setUser('admin')
-     }
+    }
+ 
      else if(authData && authData.employees.find((e) => email === e.email && password === e.password)) { 
       setUser('employee')
      }
-     else{
-      alert("invalid")
-     }
+      else {
+        alert('Invalid credentials')
+      }
   }
 
 
