@@ -120,5 +120,5 @@ Need help or see something missing? Just open an Issue or drop a note! I’d lov
 
 ---
 
-This README should give users a clear overview of the project, how to install it, how it works, and how to extend it. Let me know if you'd like additional sections such as API docs, screenshots, or CI badges!
+
 
