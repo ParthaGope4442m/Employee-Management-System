@@ -1,8 +1,4 @@
-Here’s a polished and comprehensive `README.md` tailored for your Employee Management System repository:
 
----
-
-```markdown
 # Employee Management System
 
 A lightweight React-based authentication demo featuring two roles—**admin** and **employee**—and separate dashboards for each. Ideal as a starter template for learning or prototyping role-based access control.
