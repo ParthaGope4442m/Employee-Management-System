@@ -12,6 +12,7 @@ const Login = ({handleLogin}) => {
     setPassword("")
   }
 
+
   return (
     <div className='flex h-screen w-screen items-center justify-center'>
       <div className='border-2 border-red-600 rounded-2xl'>
