@@ -74,7 +74,7 @@ Visit `http://localhost:3000` to try it out.
    {!user && <Login handleLogin={handleLogin}/>}
    {user === 'employee' && <EmployeeDashboard/>}
    {user === 'admin' && <AdminDashboard/>}
-````
+        ````
 
 3. **Extendable logic**: Simply replace the inline `handleLogin` credentials or employee list with real backend endpoints or JWT flows.
 
